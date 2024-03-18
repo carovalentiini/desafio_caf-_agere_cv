@@ -1,0 +1,31 @@
+// Archivo de navegación 
+.nav {
+    padding: 5px 25px;
+   &__container{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+   }
+
+
+   &__logo {
+     width: 60px;
+   }
+
+   &__container-buttons{
+    margin-left: auto;
+   }
+}
+
+@media  screen and (max-width: 550px){
+
+    .nav {
+
+        &__container-buttons{
+           margin: 0;
+        }
+
+    }
+
+
+}

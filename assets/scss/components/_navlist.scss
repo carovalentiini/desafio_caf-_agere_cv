@@ -1,0 +1,11 @@
+.navlist {
+    
+    & li {
+        display: inline-block;
+        margin: 15px;
+    }
+    & li a {
+        color: $grey;
+        text-decoration: none;
+    }
+}

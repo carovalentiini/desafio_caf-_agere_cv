@@ -1,0 +1,63 @@
+// Archivo de header 
+.header {
+    display:flex;
+    &__container-image {
+        width: 70%;
+        position:relative;
+    }
+    &__image {
+        width: 100%;
+    }
+
+    &__container-title {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    &__title {
+    }
+
+    &__subtitle {
+        
+    }
+
+    &__block-yellow{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: $mustard;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+
+    &__block-orange{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: $coral;
+        bottom: 15px;
+        left: -15px;
+        z-index: 2;
+    }
+
+    .header__container-block-info{
+        position:absolute;
+        display: flex;
+        bottom: 0px;
+        right: 0px;
+        z-index: 1;
+        background-color: white;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    &__block-info3 {
+        width: 33%;
+    }
+
+}

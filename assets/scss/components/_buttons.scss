@@ -1,0 +1,21 @@
+// Archivo de botones 
+.btn {
+    padding: 5px 10px;
+    background-color:$grey;
+    color: white;
+    
+
+    &--success {
+        background-color: $succes;
+        color: white;
+        border: 0.5 px solid $succes;
+        border-color: $succes ;
+    }
+
+    &--white {
+        background-color: white;
+        color: $grey;
+        border: 0,5 px solid $grey;
+        border-color: $grey;
+    }
+}

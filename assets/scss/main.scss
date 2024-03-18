@@ -1,0 +1,21 @@
+// Archivo manifiesto//
+//abstracts
+@import './abstracts/variables';
+
+//vendors
+//base
+@import './base/typography';
+
+//layout
+@import './layout/header',
+'./layout/main';
+
+//components
+@import './components/buttons',
+'./components/navigation',
+'./components/navlist';
+//pages
+//themes
+
+
+
